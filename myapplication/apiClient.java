@@ -12,7 +12,7 @@ public class apiClient {
     public static Retrofit getClient() {
         if(r==null)
         {
-            r=new Retrofit.Builder().baseUrl("http://nuxvomica.xyz/foodies/api/").addConverterFactory(GsonConverterFactory.create()).build();
+            r=new Retrofit.Builder().baseUrl("base_url").addConverterFactory(GsonConverterFactory.create()).build();
         }
         return r;
     }

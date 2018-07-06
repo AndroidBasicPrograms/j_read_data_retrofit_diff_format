@@ -37,7 +37,7 @@ public class rAdapter extends  RecyclerView.Adapter<rAdapter.retrofitViewHolder>
     @Override
     public void onBindViewHolder(retrofitViewHolder holder, int position) {
         final rModel h=res.get(position);
-        String path="http://nuxvomica.xyz/foodies/uploads/restaurant/"+h.getImage().toString();
+        String path="path_of_image_on_server"+h.getImage().toString();
         Picasso.get().load(path).into(holder.img);
         holder.tv.setText(h.getName());
         holder.opentime.setText("Open at : "+h.getOpen_time());

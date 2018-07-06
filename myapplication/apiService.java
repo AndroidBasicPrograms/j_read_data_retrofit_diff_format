@@ -11,6 +11,6 @@ import retrofit2.http.GET;
 
 public interface apiService {
 
-    @GET("restaurantlist.php?timezone=Asia/Calcutta&lat=40.728&lon=-73.984434099&search=&noofrecords=30&pageno=1&radius=100000000&category=11")
+    @GET("pagename and parameters if any")
     Call<List<rResponse>> getData();
 }

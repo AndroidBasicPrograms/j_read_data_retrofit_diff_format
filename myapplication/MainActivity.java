@@ -1,4 +1,3 @@
-package com.example.appsb.myapplication;
 
 import android.content.Context;
 import android.support.v7.app.AppCompatActivity;

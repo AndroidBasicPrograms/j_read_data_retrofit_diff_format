@@ -1,4 +1,3 @@
-package com.example.appsb.myapplication;
 
 import java.util.List;
 
